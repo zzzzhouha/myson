@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>给我的诗歌</title>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        body{
+            background-image: url(./images/kou1.jpg);
+            background-size: 100% 100%;
+        }
+        @keyframes myfirst {
+            0%{opacity: 0}
+            25%{bopacity:100}
+            50%{opacity: 0}
+            100%{opacity: 0}
+        }
+        @keyframes mysecond {
+            0%{opacity: 0}
+            50%{bopacity:0}
+            75%{opacity: 100}
+            100%{opacity: 0}
+        }
+        p{
+            font-size: 100px;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+        #canghai{
+            animation: myfirst 5s infinite;
+        }
+        #taotao{
+            animation: mysecond 5s infinite;
+        }
+
+    </style>
+</head>
+<body>
+<audio src="wav/bgm.wav" controls="controls" autoplay="autoplay" loop="loop">
+</audio>
+<p id="canghai">沧海笑</p>
+<p id="taotao">滔滔两岸潮</p>
+
+</body>
+</html>
+
